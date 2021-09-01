@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mineflayer": "^3.9.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
