@@ -5,5 +5,6 @@
     "password": "ENTER A PASSWORD HERE IF YOU'RE USING A PREMIUM ACCOUNT, LEAVE THIS AS A BLANK STRING IF UR NOT",
     "host": "localhost",
     "port": 23330,
-    "prefix": "INSERT ANY BOT PREFIX HERE, LEAVE IT EMPTY IF YOU WANT NONE"
+    "prefix": "INSERT ANY BOT PREFIX HERE, LEAVE IT EMPTY IF YOU WANT NONE",
+    "msgOnJoin": "Hello World!"
 }
