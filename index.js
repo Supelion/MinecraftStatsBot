@@ -1,7 +1,7 @@
 const mineflayer = require("mineflayer");
 const fetch = require("node-fetch");
 
-const { multiPlayerStatChecking, apiKey, username, password, host, port, prefix } = require("./config.json");
+const { multiPlayerStatChecking, apiKey, username, password, host, port, prefix, msgOnJoin } = require("./config.json");
 
 // Options for bot
 const botInfo = {
@@ -16,7 +16,7 @@ const bot = mineflayer.createBot(botInfo);
 // What to do once the bot spawns
 bot.once('spawn', () => {
 	console.log(`I have spawned in as '${bot.username}'`);
-	bot.chat("Hey!");
+	bot.chat(msgOnJoin);
     return
 });
 
