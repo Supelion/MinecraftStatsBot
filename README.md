@@ -4,6 +4,7 @@
 </div>
   <p>How to setup?</p>
   <ul>
+      <li>Edit <code>config.json</code> to your liking</li>
       <li>Run <code>npm install</code> in the same directory as package.json.</li>
       <li>Run <code>npm start</code></li>
   </ul>
