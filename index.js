@@ -43,7 +43,7 @@ bot.on('chat', async (username, message) => {
             return
 
     } else if (message.startsWith(`${prefix}help`)) {
-        bot.chat("cs - Check Stats of Provided User | help - This command dummy!");
+        bot.chat("bw - Check Stats of Provided User | help - This command dummy!");
         return
     } else if (message.startsWith(prefix)) {
         bot.chat("Unknown command!");
